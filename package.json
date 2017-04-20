@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "psql auth for project needs",
   "main": "index.js",
+  "author": "Groovej",
   "scripts": {
     "test": "mocha"
   },
@@ -13,6 +14,7 @@
   "author": "groovejbogdan",
   "license": "ISC",
   "dependencies": {
+    "commander": "^2.9.0",
     "massive": "^2.6.0",
     "simple-ssh": "^0.9.0",
     "underscore": "^1.8.3"
